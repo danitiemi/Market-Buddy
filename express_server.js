@@ -51,7 +51,7 @@ app.get("/login", function(req, res) {
   let templateVars = {
     usersObject: users[cookieID]
   };
-  res.render("urls_login", templateVars);
+  res.render("usr_login", templateVars);
 });
 
 app.get("/register", function(req, res) {
